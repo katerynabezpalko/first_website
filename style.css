@@ -1,7 +1,9 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     color: #606060;
+    margin: 0;
 }
+
 .features_description {
     text-align: center;
 }
@@ -23,11 +25,11 @@ body {
 .features {
     display: flex;
     text-align: center;
-    padding: 0 100px;
+    padding: 0 120px;
 }
 
 .features_box {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
     transition: 1s;
     margin: 0 15px;
     padding: 20px 15px;
@@ -44,14 +46,88 @@ body {
     background-color: #ff1637;
     border-radius: 50%;
     margin: auto;
-    justify-content: end;
 }
 
-i{
+.features_circle i{
     font-size: 28px;
     margin-top: 31px;
     color: white;
 }
+
+.achievement_section{
+    padding: 100px 0;
+    margin: 100px 0;
+    background-image:url("img/achivements_banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.achievements_statistic{
+    padding-left: 120px;
+}
+
+.achievements_title {
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.achievements_subtitle{
+    color: #ff1637;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.achievements{
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 120px;
+}
+.achievement_box{
+    height: 170px;
+    width: 190px;
+    background-color: #ff1637;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.number{
+    margin: 10px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: #ff1637;
+}
+
 .yellow {
     background-color: #f1c30f;
 }
+
+.achievement_box i{
+    color: white;
+    font-size: 35px;
+    transition: 1s;
+}
+
+.achievement_box:hover i{
+    padding-bottom: 10px;
+
+}
+
+.name{
+    font-size: 18px;
+
+}
+
