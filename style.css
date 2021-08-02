@@ -4,22 +4,21 @@ body {
     margin: 0;
 }
 
-.features_description {
+.description {
     text-align: center;
+    margin: 0 200px 30px 200px;
 }
 
-.features_subtitle {
+.subtitle {
     color: #ff1637;
     font-weight: bold;
 }
 
-.features_title {
+.title {
     font-size: 40px;
     color: black;
-}
-
-.features_text {
-    margin: 0 200px 50px 200px;
+    margin: 5px;
+    font-weight: 400;
 }
 
 .features {
@@ -61,6 +60,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
 .achievements_statistic{
     padding-left: 120px;
 }
@@ -83,6 +83,7 @@ body {
     width: 47%;
     margin-left: 120px;
 }
+
 .achievement_box{
     height: 170px;
     width: 190px;
@@ -123,11 +124,46 @@ body {
 
 .achievement_box:hover i{
     padding-bottom: 10px;
-
 }
 
 .name{
     font-size: 18px;
-
 }
 
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.team_member{
+    margin: 15px;
+}
+
+.team_member_description{
+    text-align: center;
+}
+
+.member_name {
+    font-size: 25px;
+    margin:4px;
+    color: black;
+}
+
+.status {
+    margin: 4px;
+}
+
+hr{
+    border: none;
+    height: 3px;
+    width: 35px;
+    background-color: #f1c30f;
+}
+
+.team_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+}
