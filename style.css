@@ -7,6 +7,7 @@ body {
 .description {
     text-align: center;
     margin: 0 200px 30px 200px;
+    padding-top: 64px;
 }
 
 .subtitle {
@@ -166,4 +167,110 @@ hr{
     justify-content: space-between;
     width: 30%;
     margin: auto;
+}
+
+.design_agency{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 468px;
+    margin-bottom: 100px;
+}
+
+.design_description{
+    width: 50%;
+    background-color: #f1c30f;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.agency_photo {
+    width: 50%;
+    overflow: hidden;
+}
+
+.agency_photo_img {
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+.agency_photo_img:hover{
+    transform: scale(1.2);
+}
+
+.agency_title {
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 1.2;
+    margin: 0 20px;
+}
+
+.agency_subtitle {
+    margin: 25px 20px;
+    font-size: 17px;
+}
+
+.play_button {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #ff1637;
+    border-radius: 50%;
+    z-index: 1;
+    top:42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.play_button:hover {
+    background-color:white;
+    color: #ff1637;
+}
+
+.fixed_menu{
+    position: fixed;
+    top: 0;
+    height: 64px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    background-color: white;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.first_part{
+    display: flex;
+    justify-content: space-between;
+    width: 30%
+}
+
+.second_part{
+    display: flex;
+    justify-content: space-between;
+    width: 30%
+}
+
+.logo{
+    display: block;
+    width: 150px;
+    height: 30px;
+}
+
+.header_nav{
+    transition:1s;
+}
+
+.header_nav:hover{
+    color: #ff1637;
+    cursor:pointer;
 }
