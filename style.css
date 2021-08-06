@@ -274,3 +274,119 @@ hr{
     color: #ff1637;
     cursor:pointer;
 }
+
+.pricing{
+    padding-bottom: 150px;
+    background-color: #f6f6f6;
+}
+
+.packages{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 120px;
+}
+
+.package,
+.package_standard {
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+    transition: 1s;
+    background-color: white;
+    padding: 10px 65px 40px;
+    margin-top: 100px;
+    color: black;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.package:hover{
+    background-color: black;
+    color: white;
+}
+
+.package_standard{
+    position:relative;
+    margin-top: 40px;
+}
+
+.package_standard:hover{
+    background-color: #f1c30f;
+    color:white;
+}
+
+.package_title,
+.package_title_standard{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.package_title_standard{
+    margin: 30px 0 1px;
+}
+
+.subtitle_standard{
+    margin: 0 0 44px;
+    color: grey;
+}
+
+.price_line{
+    border: none;
+    height: 1px;
+    width: 155px;
+    background-color: dimgrey;
+}
+
+.price{
+    font-size:62px;
+}
+
+.sign_button,
+.sign_button_standard{
+    height: 42px;
+    width: 106px;
+    background-color: black;
+    border-radius: 36px;
+    color: white;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_button_standard{
+    background-color: #f1c30f;
+    color: white;
+}
+
+.sign_button:hover {
+    background-color: white;
+    color:black;
+}
+
+.sign_button_standard:hover{
+    background-color: white;
+    color:black;
+}
+
+.triangle{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f1c30f ;
+    border-right: 100px solid transparent;
+}
+
+.special{
+    font-weight: 100;
+    position: absolute;
+    left: 9px;
+    color: white;
+    top: -81px;
+    transform: rotate(-45deg);
+}
